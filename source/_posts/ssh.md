@@ -8,7 +8,7 @@ version:
 
 ## get started
 
-### Forwarding
+## Forwarding
 
 ```bash
 # Forward instance's 8080 port to the local machine's 8080 port

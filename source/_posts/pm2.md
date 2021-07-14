@@ -57,17 +57,24 @@ pm2 start binary-file -- --port 1520
 ### Manage
 
 ```bash
+# For single process
 pm2 [list|ls|status] app_name
 pm2 restart app_name
 pm2 reload app_name
 pm2 stop app_name
 pm2 delete app_name
+
+# For processes
+# Save the current process list
+pm2 dump | save
+# Recover
+pm2 resurrect
 ```
 
 ### Logs
 
 ```bash
-pm2 logs app_name --lines <the number of lines>
+pm2 logs <id|name|all> --lines <the number of lines>
 ```
 
 ### Dashboard
