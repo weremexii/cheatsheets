@@ -2,7 +2,7 @@
 title: screen
 date: 2021-06-23 15:29:32
 categories:
-- manage
+- basic
 version:
 ---
 

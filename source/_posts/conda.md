@@ -2,7 +2,7 @@
 title: conda
 date: 2021-07-04 12:17:31
 categories:
-- environment
+- package
 version:
 ---
 
