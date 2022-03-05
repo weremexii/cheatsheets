@@ -11,5 +11,9 @@ version:
 ### Env Manage
 
 ```bash
+conda create --name [env_name] [[package][=version]]
+```
+
+```bash
 conda env remove --name [env_name]
 ```

@@ -8,6 +8,12 @@ version:
 
 ## get started
 
+## Connect
+
+```bash
+ssh -p [port] [user]@<instance-ip>
+```
+
 ## Forwarding
 
 ```bash
