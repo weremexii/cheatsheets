@@ -8,7 +8,7 @@ version:
 
 ## get started
 
-### Env Manage
+## Env Manage
 
 ```bash
 conda create --name env_name [[package][=version]]
@@ -16,14 +16,16 @@ conda create --name env_name [[package][=version]]
 
 ```bash
 conda env remove -n env_name
+# equivalent to
+conda remove -n env_name --all
 ```
-### Package Manage
+## Package Manage
 
 ```bash
 conda remove -n env_name package_name
 ```
 
-### Cache
+## Cache
 
 ```bash
 # remove index cache, usually done after change channel of .condarc
