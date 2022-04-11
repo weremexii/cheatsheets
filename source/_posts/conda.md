@@ -11,9 +11,26 @@ version:
 ### Env Manage
 
 ```bash
-conda create --name [env_name] [[package][=version]]
+conda create --name env_name [[package][=version]]
 ```
 
 ```bash
-conda env remove --name [env_name]
+conda env remove -n env_name
+```
+### Package Manage
+
+```bash
+conda remove -n env_name package_name
+```
+
+### Cache
+
+```bash
+# remove index cache, usually done after change channel of .condarc
+conda clean -i
+```
+
+```bash
+# remove package cache
+conda clean -p
 ```
