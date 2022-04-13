@@ -8,11 +8,15 @@ version:
 
 ## get started
 
-### Create
+### Manage
 
 ```zsh
 # create a screen and enter it
 screen -S <screen_name>
+# reattach a screen
+screen -r <screen_name>
+# show existing screens
+screen -l
 ```
 
 ### Detach
